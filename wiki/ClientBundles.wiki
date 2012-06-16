@@ -12,3 +12,5 @@ In chapter 5 we look at the different types of resource that can be bundled:
 All wrapped up in a playable with chapter example:
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%205%20clientbundle.png" width="500px" border="1px"/>
+
+[CreatingWidgets <-- Ch4 Creating new Widgets]<pre></pre>[UiBinder Using UiBinder -->]
