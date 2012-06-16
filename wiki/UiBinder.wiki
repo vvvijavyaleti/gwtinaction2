@@ -8,4 +8,4 @@ Or you can do it more efficiently/cleanly using the declarative approach of UiBi
 
 This we introduce and discuss in some detail in Chapter 6 and then use it as the preferred approach for the rest of our examples.
 
-[ClientBundles <-- Ch5 Using Client Bundles]<pre></pre>[GWTRPC Communicating with GWT-RPC -->]
+[ClientBundles <-- Ch5 Using Client Bundles]<pre></pre>[GWTRPC Ch7 Communicating with GWT-RPC -->]
