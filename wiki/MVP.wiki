@@ -1,0 +1,14 @@
+= Chapter 15 - Building MVP Applications =
+
+We look in the book at how to build applications based on MVP (and what we mean by MVP).  In particular we cover:
+
+ * Hand built MVP
+ * Using GWT's Activity and Place
+ * Code splitting in an MVP world
+ * How Editors and Data Presentation widgets fit with MVP
+
+This discussion is supported by 4 versions of a Photo application.
+
+<img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2015%20mvp%20photos.png" width="500px"/>
+
+<img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2015%20mvp%20list.png" width="500px"/>
