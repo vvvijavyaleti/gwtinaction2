@@ -14,8 +14,9 @@ to implementation:
 
 == Looking at.. ==
 
- * Widgets
+ * Widgets (new and wrapping existing HTML)
  * Panels
- * RootPanels
+ * !RootPanels
+ * DOM Manipulation to get data from HTML page
  * Events and handling
  * History Management
