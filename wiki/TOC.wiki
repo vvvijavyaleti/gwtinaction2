@@ -6,6 +6,6 @@
   *
   *
   * Examples
-    * [BasicApp Chapter 2 - Hello World]
-    * [EnhancingApp Chapter Enhancing Hello World]
+    * [BasicApp Ch. 2 - Hello World]
+    * [EnhancingApp Ch. 3 - Enhancing Hello World]
     * [CreatingWidgets Chapter 4]
