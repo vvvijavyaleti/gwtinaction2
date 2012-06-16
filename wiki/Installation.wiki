@@ -1,1 +1,0 @@
-#summary Details on installing the examples.
