@@ -2,4 +2,4 @@
 
 TBD
 
-[GWTRPC <-- Ch7 Communicating with GWT-RPC]<pre></pre>[Editors Ch9 The Editor Framework -->]
+[GWTRPC <-- Ch7 Communicating with GWT-RPC]<pre></pre>[EditorFramework Ch9 The Editor Framework -->]
