@@ -11,7 +11,7 @@ The example code comes from the following chapters:
 
 ==Part 1: The Basics==
 || *Chapter* || *Title* || *Examples* ||   
-|| 2 || Building a GWT application: Saying Hello World || Build a simple Hello World GWT application and get familiar with Dev mode, compiling for web mode (and a brief overview of the future Super Dev Mode)|| 
+|| [BasicApp 2] || Building a GWT application: Saying Hello World || Build a simple Hello World GWT application and get familiar with Dev mode, compiling for web mode (and a brief overview of the future Super Dev Mode)|| 
 || 3 || Building a GWT application: Enhancing Hello World || Enhance the output from Ch2 looking at widgets, panels, handling History, simple events, styling various ways || 
 
 ==Part 2: Next Steps==
