@@ -1,11 +1,10 @@
-#summary Decription of SuperDevMode.
-
+#summary Description of SuperDevMode.
+<wiki:toc max_depth="1" />
 <g:plusone size="medium"></g:plusone>
 
 = Introduction =
 
-
-
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch02/Super%20dev%20mode.png
 
 Add your content here.
 
