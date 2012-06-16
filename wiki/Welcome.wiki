@@ -1,5 +1,5 @@
 = GWT in Action, 2nd Edition=
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="2" />
 This site contains the source code for the book Google Web Toolkit (GWT) in Action - to be published by Manning in 2012.
 
 You can find the source code for download under the *_Source_* tab.
