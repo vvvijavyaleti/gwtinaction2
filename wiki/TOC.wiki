@@ -7,13 +7,5 @@
   *
   *
   *
-  * [http://code.google.com/p/gwtinaction2/issues/list Known Issues]
-  * [ReleaseNotes Release Notes]
-  * [http://gwt-fx.googlecode.com/svn/javadoc/0.5/index.html JavaDoc]
-  *
-  *
-  *
-  *
-  *
   *
   * [http://code.google.com/p/gwt-fx/wiki/FAQ FAQ]
