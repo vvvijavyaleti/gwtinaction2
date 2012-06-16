@@ -1,13 +1,7 @@
-#summary One-sentence summary of this page.
+= GWT in Action, 2nd Edition=
 
-= Introduction =
+This site contains the source code for the book Google Web Toolkit (GWT) in Action - to be published by Manning in 2012.
 
-Add your content here.
+You can find the source code for download under the *_Source_* tab.
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Any known issues with the source code can be found under *_the Issues_* tab, and you can also that area to report any issues you find yourself.
