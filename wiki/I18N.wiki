@@ -1,6 +1,18 @@
 = Chapter 13 Internationalization and Localization =
 
-TBD
+Another example packed chapter showing how to make your application as simply usable by as many people as possible.
 
+We look at the following aspects:
+
+  * Static internationalization (i18n)
+  * Dynamic i18n
+  * Localization of times, dates, currency and number formats
+  * localization of client bundles
+  * Alternative messages drive by plurality and user defined conditions
+  * How we also need to be aware of cross site hack attacks when using i18N and how to protect against them
+
+<img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2013%20i18N.png" width="600px"/>
+
+We also look at how to use !DirectionEstimators to guess if someone is using a left-right language or a right-left one.
 
 [ClassicAjax <-- Ch12 Classic AJAX and Forms]<pre></pre>[EventBus Ch14 Events and EventBus -->]
