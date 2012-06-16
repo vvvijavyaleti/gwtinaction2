@@ -1,4 +1,3 @@
-
 = Enhancing the Application =
 
 Once you have the output from Chapter 2, where we examined using tools to create a basic Hello World application, we enhance it to build a real application.
@@ -11,7 +10,7 @@ The chapter describes how we go from the concept:
 == Implementation ==
 to implementation:
 
-<img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch03/Figure%203%20Impl.png width="500px"/>
+<img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch03/Figure%203%20Impl.png" width="500px"/>
 
 == Looking at.. ==
 
