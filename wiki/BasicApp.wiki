@@ -2,6 +2,8 @@
 
 The emphasis of chapter 2 is on you using the GWT tools (specifically the Google Plugin for Eclipse) to create a basic GWT application.
 
+<g:plusone></g:plusone>
+
 We look at what is created, why, and how.
 
 We examine the process for the following:
