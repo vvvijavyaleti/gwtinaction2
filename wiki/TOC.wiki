@@ -6,7 +6,7 @@
   *
   *
   * Examples
-    * [BasicApp Hello World]
+    * [BasicApp Creating Hello World]
     * [EnhancingApp Enhancing Hello World]
     *
     *
