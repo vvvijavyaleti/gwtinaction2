@@ -8,8 +8,8 @@
   * Examples
     * 1. [BasicApp Creating Hello World]
     * 2. [EnhancingApp Enhancing Hello World]
-    
-    
+    *
+    *
     * 3. [CreatingWidgets Creating own Widgets]
     * 4. [ClientBundles Using Client Bundles]
     * 5. [UiBinder Interface Design using !UiBinder]
@@ -20,8 +20,8 @@
     * 10. [JSNI Using JSNI]
     * 11. [ClassicAjax Classic AJAX and HTML Forms]
     * 12. [I18N Internationalizaiton]
-    
-    
+    *
+    *
     * 13. [EventBus Advanced Event and EventBus]
     * 14. [MVP Building MVP based Apps]
     * 15. [DI Dependency Injection]
