@@ -1,7 +1,7 @@
 = Chapter 11 Using !JavaScript Native Interface (JSNI) =
 
-JSNI (JavaScript Native Interface) is GWT's way of interacting with pure !Javascript.
-
+JSNI (!JavaScript Native Interface) is GWT's way of interacting with pure !Javascript.
+<g:plusone></g:plusone>
 This chapter is a little example packed:
 
 <wiki:toc max_depth="2" />
