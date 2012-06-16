@@ -1,6 +1,21 @@
 = Chapter 11 Using JavaScript Native Interface (JSNI) =
 
-TBD
+JSNI (JavaScript Native Interface) is GWT's way of interacting with pure Javascript.
+
+This chapter is a little example packed!
+
+
+== Using JSNI == 
+
+ == JavaScript Object/Overlays == 
+
+ == Wrapping JSON == 
+
+ == Wrapping a library == 
+
+ == Exposing an API == 
+
+
 
 
 [EditorFramework <-- Ch10 Data Presentation Widgets]<pre></pre>[JSNI Ch12 Classic Ajax and Forms -->]
