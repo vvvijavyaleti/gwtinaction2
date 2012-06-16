@@ -2,4 +2,6 @@
 
 TBD
 
+<img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%209%20editor.png" width="600px"/>
+
 [RequestFactory <-- Ch8 Using RequestFactory]<pre></pre>[DataPresentation Ch10 Data Presentation Widgets -->]
