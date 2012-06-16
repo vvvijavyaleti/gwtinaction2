@@ -1,0 +1,10 @@
+
+= Chapter 6 Communicating with GWT-RPC =
+
+GWT-RPC gives tight binding between client and server side code which can be useful.
+
+This chapter's example uses GWT-RPC to allow the user interface to communicate with Twitter's servers (which can't be done directly as there are single site origin issues)
+
+<img src="https://gwtinaction2.googlecode.com/svn/wiki/images/ch07/Chapter%207%20twitter.png" width="600px"/>
+
+[UiBinder<-- Ch5 Interface using UiBinder]<pre></pre>[RequestFactory Ch 7 Using RequestFactory -->]
