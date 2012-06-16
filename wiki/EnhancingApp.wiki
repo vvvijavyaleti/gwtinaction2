@@ -2,6 +2,8 @@
 
 Once you have the output from Chapter 2, where we examined using tools to create a basic Hello World application, we enhance it to build a real application.
 
+<g:plusone></g:plusone>
+
 == Concept ==
 The chapter describes how we go from the concept:
 
