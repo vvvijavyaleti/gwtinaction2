@@ -6,13 +6,13 @@ Chapter 4 looks at various aspects relating to creating widgets.
 
 <img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch04/Chapter%204%20all.png" width="500px"/>
 
-== Creating a widget ==
+== Creating a new widget from the DOM ==
 We create a Canvas widget to see how a new widget can be created from the DOM and what interfaces we migt want to add to tell developers what the widget will do.
 
-== Extending a widget ==
+== Extending an existing widget ==
 Sometimes the functionality you want is close to an existing widget - in this case, why not extend the existing widget and add the new functionality.  We also look at overiding methods to supress existing functionality of the extended widget.
 
-== Composite widget ==
+== Creating a Composite widget ==
 Building Composite widgets is where you'll likely spend most of your time.  We investigate what these are and how to create and use them.
 
 == Safe HTML ==
@@ -21,7 +21,7 @@ You always need to be aware of protecting your user from being hacked, and when 
 <img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch04/Chapter%204%20safehtml.png"  width="500px"/>
 
 == Animation ==
-Hidden inside GWT is a neat way to provide animations.  It's not extensively used yet, but that scaffolding it provides can easily be harnessed.
+Down inside GWT is a neat way to provide animations - useful for DOM attributes (color, dimensions, locations, etc...).  It's not extensively used yet, but the scaffolding it provides can easily be harnessed, as we see.
 
 == Layout Panels ==
 Layout panels are GWT's snappy almost impossibly fast layout containers and as they're relatively new we spend some time playing with them to understand how they work.  We'll also see how to animate the panels so they change form smoothly.
