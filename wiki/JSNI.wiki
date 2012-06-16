@@ -10,9 +10,9 @@ This chapter is a little example packed:
 We look at how to implement a getComputedStyle method in GWT, focussing in this chapter on the JSNI aspect.
 
 == !JavaScript Object/Overlays == 
-JavaScript overlay objects are extremely helpful and powerful when interacting with JavaScript.  
+JavaScript overlay objects are extremely helpful and powerful when interacting with !JavaScript.  
 
-We see in this example how to use them and how they compare to plain JavaScript objects.  We also consider a little how to load a JavaScript library.
+We see in this example how to use them and how they compare to plain JavaScript objects.  We also consider a little how to load a !JavaScript library.
 
 == Wrapping JSON == 
 Now that we understand overlay objects, we can see how simple they make wrapping JSON by simply grabbing and displaying a photo feed from Picasa web service.
@@ -20,7 +20,7 @@ Now that we understand overlay objects, we can see how simple they make wrapping
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2011%20JSNI%20JSON.png" width="500px"/>
 
 == Wrapping a library == 
-Time to crank up the complexity a little and see how to wrap an existing JavaScript library.
+Time to crank up the complexity a little and see how to wrap an existing !JavaScript library.
 
 We wrap the Cooliris photo wall to get this exciting example.
 
