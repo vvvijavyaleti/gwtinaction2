@@ -1,0 +1,6 @@
+= Chapter 13 Internationalization and Localization =
+
+TBD
+
+
+[ClassicAjax <-- Ch12 Classic AJAX and Forms]<pre></pre>[EventBus Ch14 Events and EventBus -->]
