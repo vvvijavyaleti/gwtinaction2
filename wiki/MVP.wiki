@@ -12,3 +12,5 @@ This discussion is supported by 4 versions of a Photo application.
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2015%20mvp%20photos.png" width="500px"/>
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2015%20mvp%20list.png" width="500px"/>
+
+[EventBus <-- Ch14 Advanced Events and EventBus]<pre></pre>[DI Ch16 Dependancy Injection -->]
