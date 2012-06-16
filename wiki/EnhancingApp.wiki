@@ -1,4 +1,4 @@
-= Chapter 3: Building a GWT application: Enhancing Hello World =
+= Chapter 3 - Building a GWT application: Enhancing Hello World =
 
 Once you have the output from Chapter 2, where we examined using tools to create a basic Hello World application, we enhance it to build a real application.
 
