@@ -23,3 +23,5 @@ to implementation:
  * Styling (programmatically, with style sheets and with themes)
 
 To understand History Management better, we have a separate project focussing on just that.
+
+[EnhancingApp <-- Ch3 Enhancing Hello World]<pre></pre>[CreatingWidgets Ch4 Creating Widgets -->]
