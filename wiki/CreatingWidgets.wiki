@@ -2,9 +2,9 @@
 
 Chapter 4 looks at various aspects relating to creating widgets.
 
-<wiki:toc max_depth="2" />
-
 <img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch04/Chapter%204%20all.png" width="500px"/>
+
+<wiki:toc max_depth="2" />
 
 == Creating a new widget from the DOM ==
 We create a Canvas widget to see how a new widget can be created from the DOM and what interfaces we migt want to add to tell developers what the widget will do.
