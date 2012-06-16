@@ -1,5 +1,4 @@
-
-= Chapter 2 - Building a GWT application =
+= Chapter 2 - Building a GWT application: Saying Hello World =
 
 The emphasis of chapter 2 is on you using the GWT tools (specifically the Google Plugin for Eclipse) to create a basic GWT application.
 
