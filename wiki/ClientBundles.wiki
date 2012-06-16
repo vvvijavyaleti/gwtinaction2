@@ -13,4 +13,4 @@ All wrapped up in a playable with chapter example:
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%205%20clientbundle.png" width="500px" border="1px"/>
 
-[CreatingWidgets <-- Ch4 Creating new Widgets]<pre></pre>[UiBinder Using UiBinder -->]
+[CreatingWidgets <-- Ch4 Creating new Widgets]<pre></pre>[UiBinder Ch 6 Using UiBinder -->]
