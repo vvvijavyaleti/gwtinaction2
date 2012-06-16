@@ -12,7 +12,7 @@ The example code comes from the following chapters:
 ==Part 1: The Basics==
 || *Chapter* || *Title* || *Examples* ||   
 || [BasicApp 2] || [BasicApp Building a GWT application: Saying Hello World] || Build a simple Hello World GWT application and get familiar with Dev mode, compiling for web mode (and a brief overview of the future Super Dev Mode)|| 
-|| 3 || Building a GWT application: Enhancing Hello World || Enhance the output from Ch2 looking at widgets, panels, handling History, simple events, styling various ways || 
+|| [EnhancingApp 3] || [EnhancingApp Building a GWT application: Enhancing Hello World] || Enhance the output from Ch2 looking at widgets, panels, handling History, simple events, styling various ways || 
 
 ==Part 2: Next Steps==
 || *Chapter* || *Title* || *Examples* ||   
