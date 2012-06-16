@@ -5,6 +5,6 @@
   * [http://code.google.com/p/gwtinaction2/issues/list?can=2&q=type=Book-Errata&colspec=ID%20Summary Book Errata]
   *
   *
-  *
-  *
-  *
+  * Examples
+    * [Chapter 2]
+    *
