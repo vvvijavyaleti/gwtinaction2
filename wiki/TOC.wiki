@@ -6,6 +6,6 @@
   *
   *
   * Examples
-    * [Ch02 Chapter 2]
+    * [BasicApp Chapter 2]
     * [EnhancingApp Chapter 3]
     * [CreatingWidgets Chapter 4]
