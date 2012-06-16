@@ -12,7 +12,7 @@
     *
     * 3. [CreatingWidgets Creating own Widgets]
     * 4. [ClientBundles Using Client Bundles]
-    * 5. [UiBinder Interface Design using !UiBinder]
+    * 5. [UiBinder Interface Design using UiBinder]
     * 6. [GWTRPC Communicating with GWT-RPC]
     * 7. [RequestFactory Using RequestFactory]
     * 8. [EditorFramework The Editor Framework]
