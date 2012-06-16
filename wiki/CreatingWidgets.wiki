@@ -6,6 +6,8 @@ Chapter 4 looks at various aspects relating to creating widgets.
 
 <wiki:toc max_depth="2" />
 
+<g:plusone></g:plusone>
+
 == Creating a new widget from the DOM ==
 We create a Canvas widget to see how a new widget can be created from the DOM and what interfaces we migt want to add to tell developers what the widget will do.
 
