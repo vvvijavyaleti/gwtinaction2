@@ -18,3 +18,5 @@ Super Dev Mode is new with GWT 2.5.  It is very experimental but the future of G
 <img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch02/Super%20dev%20mode.png" width="500px"/>
 
 ...where you can see we can debug our Java source directly in the browser's web development tool!
+
+[EnhancingApp Ch3 Enhancing Hello World -->]
