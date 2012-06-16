@@ -20,3 +20,6 @@ to implementation:
  * DOM Manipulation to get data from HTML page
  * Events and handling
  * History Management
+ * Styling (programmatically, with style sheets and with themes)
+
+To understand History Management better, we have a separate project focussing on just that.
