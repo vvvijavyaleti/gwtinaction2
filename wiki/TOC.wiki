@@ -6,5 +6,5 @@
   *
   *
   * Examples
-    * [http:// Chapter 2]
-    * [http:// Chapter 4]
+    * [Ch02 Chapter 2]
+    * [Ch04 Chapter 4]
