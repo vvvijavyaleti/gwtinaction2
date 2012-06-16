@@ -2,7 +2,9 @@
 
 You could build interfaces the way we have been so far - lots of Java object creation and the use of the add method.
 
-Or you can do it more efficiently/cleanly using the declarative approach of UiBinder:
+Or you can do it more efficiently/cleanly using the declarative approach of UiBinder.
+
+<g:plusone></g:plusone>
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/ch06/Chapter%206%20ui.xml.png" width="700px"/>
 
