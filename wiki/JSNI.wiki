@@ -2,7 +2,7 @@
 
 JSNI (!JavaScript Native Interface) is GWT's way of interacting with pure !JavaScript.
 
-<g:plusone></g:plusone>
+<g:plusone href="https://code.google.com/p/gwtinaction2/wiki/JSNI"></g:plusone>
 
 This chapter is a little example packed:
 
