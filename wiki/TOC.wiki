@@ -6,6 +6,9 @@
   *
   *
   * Examples
-    * [BasicApp Ch. 2 - Hello World]
-    * [EnhancingApp Ch. 3 - Enhancing Hello World]
-    * [CreatingWidgets Chapter 4]
+    * [BasicApp Hello World]
+    * [EnhancingApp Enhancing Hello World]
+    *
+    * [CreatingWidgets Creating own Widgets]
+    * [ClientBundles Using Client Bundles]
+    * [ClientBundles Interface Design UiBinder]
