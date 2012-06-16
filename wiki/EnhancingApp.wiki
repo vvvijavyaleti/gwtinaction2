@@ -1,0 +1,22 @@
+
+= Enhancing the Application =
+
+Once you have the output from Chapter 2, where we examined using tools to create a basic Hello World application, we enhance it to build a real application.
+
+== Concept ==
+The chapter describes how we go from the concept:
+
+<img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch03/Figure%203%20Mockup.png" width="500px"/>
+
+== Implementation ==
+to implementation:
+
+<img src="http://gwtinaction2.googlecode.com/svn/wiki/images/ch03/Figure%203%20Impl.png width="500px"/>
+
+== Looking at.. ==
+
+ * Widgets
+ * Panels
+ * RootPanels
+ * Events and handling
+ * History Management
