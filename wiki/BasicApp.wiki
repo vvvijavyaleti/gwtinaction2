@@ -25,38 +25,47 @@ Super Dev Mode is new with GWT 2.5.  It is very experimental but the future of G
 ...where you can see we can debug our Java source directly in the browser's web development tool!
 
 = Book's Chapter Contents =
- * 4.1	What is a widget, again?
- * 4.2	Create a new widget from the DOM
-   * 4.2.1	Introducing the GWTiACanvas Widget
-   * 4.2.2	Indicating Functionality
-   * 4.2.3	Hooking up Events
-   * 4.2.4	Using SafeHTML protection
- * 4.3	Extending an existing widget
-   * 4.3.1	Introducing the !ReportSizeLabel widget
-   * 4.3.2	Indicating functionality
- * 4.4	Extending a Panel
- * 4.5	Creating a composite
-   * 4.5.1	Introducing the !DataField question/answer widget
-   * 4.5.2	Indicating Functionality
- * 4.6	Using Layout Panels
-   * 4.6.1	Types of Layout Panels
-   * 4.6.2	Creating Layout Panels
-   * 4.6.3	Animating Layout Panels
- * 4.7	Applying animation to widgets
-   * 4.7.1	Widgets that Animate
-   * 4.7.2	Building our own animation
- * 4.8	Exploring the Lifecycle of a Widget
-   * 4.8.1	Creating a widget
-   * 4.8.2	Adding a widget
-       * Handling widget attachment
-   * 4.8.3	Removing a widget
-       * Handling Widget Detachment
-   * 4.8.4	Destroying a Widget
- * 4.9	Getting Elemental, my dear Watson!
-   * 4.9.1	Examining Elemental
-   * 4.9.2	Understanding the challenge
-   * 4.9.3	Noting the benefit
- * 4.10	Summary
 
+1.2	What is a GWT Application?	4
+1.2.1	Seeing the User’s View	4
+1.2.2	Examining the Developer’s View	5
+1.2.3	Understanding Development vs web modes	7
+Development mode	7
+Super Dev Mode	8
+Web (production) mode	9
+2.2	Examining the options for building an application	9
+2.3	Creating the Hello World Application with the Google Plugin for Eclipse	10
+2.3.1	Creating a web Application	11
+2.3.2	Defining a GWT Module	14
+2.3.3	Adding an EntryPoint	16
+Implementing some functionality	17
+2.3.4	Providing the Web Page	18
+2.3.5	Recapping the magic	20
+2.4	Running Hello World in Development mode	21
+2.4.1	Starting Development Mode in Eclipse	22
+2.4.2	Passing parameters to Development Mode	24
+2.5	Finding out Where it Went Wrong	27
+2.5.1	Checking the code in the IDE for errors	28
+2.5.2	Looking at Development Mode Output	28
+2.5.3	Reading the Console output	29
+2.5.4	Debugging in Eclipse	30
+2.5.5	Inspecting using Browser Development/Inspection Tools	31
+2.6	Compiling Hello World for web mode	32
+2.6.1	Running the GWT Compiler from Eclipse	32
+2.6.2	Welcoming the User	35
+2.6.3	Passing Parameters to the GWT compiler	36
+2.7	Understanding Modules versus packages	37
+2.7.1	What is in a GWT Module?	38
+2.7.2	What are the Benefits of Modules?	40
+2.7.3	How many modules should i have?	41
+2.8	Digging deeper into the Uncompiled Application Part of a GWT application	43
+2.8.1	Folder Structure Convention	43
+2.8.2	Package Structure Convention	43
+2.8.3	What Java can I use in GWT	44
+2.8.4	The Server Side	45
+2.9	Reviewing the Deployable Application part of a GWT application	45
+2.9.1	Harnessing different Linkers	46
+2.10	Building on your understanding	48
+2.11	Summary	49
 
 [EnhancingApp Ch3 Enhancing Hello World -->]
