@@ -1,6 +1,10 @@
 = Chapter 14 - Advanced Events and !EventBus =
 
-We look at a number of things to do with events in a number of sub examples, including:
+We look at a number of things to do with events in a number of sub examples.
+
+<g:plusone></g:plusone>
+
+Including:
 
  * Creating our own events (!ColorChangeEvent)
  * Bubbling or Cspturing events
