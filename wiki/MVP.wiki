@@ -4,6 +4,8 @@ We look in the book at how to build applications based on MVP (and what we mean 
 
 <g:plusone></g:plusone>
 
+<wiki:toc max_depth="2" />
+
 In particular we cover:
 
  * Hand built MVP
@@ -18,5 +20,7 @@ This discussion is supported by 4 versions of a Photo application.  Each have th
 ...and here's a view that show same data but in a Data Presentation widget to examine how they fit into the MVP approach.
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2015%20mvp%20list.png" width="500px"/>
+
+= Book's Chapter Content =
 
 [EventBus <-- Ch14 Advanced Events and EventBus]<pre></pre>[DI Ch16 Dependancy Injection -->]
