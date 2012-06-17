@@ -3,6 +3,7 @@
   * [Welcome Welcome]
   * [Installation Installing Examples]
   * [http://code.google.com/p/gwtinaction2/issues/list?can=2&q=type=Book-Errata&colspec=ID%20Summary Book Errata]
+  * [BookContents Book Contents]
   *
   *
   * Examples
