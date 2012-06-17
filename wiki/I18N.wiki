@@ -4,6 +4,8 @@ Another example packed chapter showing how to make your application as simply us
 
 <g:plusone></g:plusone>
 
+<wiki:toc max_depth="2" />
+
 We look at the following aspects:
 
   * Static internationalization (i18n)
@@ -16,5 +18,7 @@ We look at the following aspects:
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2013%20i18N.png" width="600px"/>
 
 We also look at how to use !DirectionEstimators to guess if someone is using a left-right language or a right-left one.
+
+= Book's Chapter Content =
 
 [ClassicAjax <-- Ch12 Classic AJAX and Forms]<pre></pre>[EventBus Ch14 Events and EventBus -->]
