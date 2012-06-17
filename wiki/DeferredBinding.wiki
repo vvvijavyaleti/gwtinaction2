@@ -36,5 +36,4 @@ TBD
 
 
 
-[DI <-- Ch16 Dependency Injection]<pre></pre>[Generators Ch18 Generators-->]
-
+[DI <-- Ch16 Dependency Injection]<pre></pre>[Generators Ch18 Automatically Generating Code-->]
