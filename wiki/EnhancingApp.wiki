@@ -29,5 +29,36 @@ to implementation:
 To understand History Management better, we have a separate project focussing on just that.
 
 = Book's Chapter Content =
+ * 3.1	Re-examining the Example Application
+    * 3.1.1 Enhancements
+ * 3.2	Updating the HTML
+ * 3.3	Enhancing the Code
+ * 3.4	Creating your User Interface
+   * 3.4.1	Presenting Widgets
+     * Creating Widgets
+     * Widget hierarchy
+   * 3.4.2	Organizing layout with Panels
+     * Creating a Panel
+     * Types of Panels
+ * 3.5	Manipulating the page
+   * 3.5.1	Using the !RootPanel / !RootLayoutPanel
+   * 3.5.2	Manipulating the DOM directly
+   * 3.5.3	Playing Safe with HTML
+ * 3.6	Handling Events
+   * 3.6.1	What are Events
+   * 3.6.2	Handling Events
+   * 3.6.3	Preventing the Browser handling events for us
+ * 3.7	Managing History
+   * 3.7.1	Handling History in GWT
+   * 3.7.2	Implementing History Management in Your Application
+ * 3.8	Styling Components
+   * 3.8.1	Programmatic styling
+   * 3.8.2	Low level Styling
+   * 3.8.3	Cascading Style Sheets
+   * 3.8.4	GWT Themes
+ * 3.9	Building on your Understanding
+ * 3.10	Summary
+
+
 
 [BasicApp <-- Ch2 Creating Hello World]<pre></pre>[CreatingWidgets Ch4 Creating Widgets -->]
