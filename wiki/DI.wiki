@@ -4,10 +4,14 @@ This example applies Dependency Injection techniques to the Photo Application fr
 
 <g:plusone></g:plusone>
 
+<wiki:toc max_depth="2" />
+
 The book covers
 
  * Using DI, benefits and pitfalls
  * GUICE DI library
  * GWT GIN DI library
+
+= Book's Chapter Content =
 
 [MVP <-- Ch15 MVP Applications]<pre></pre>[DeferredBinding Ch17 DeferredBinding-->]
