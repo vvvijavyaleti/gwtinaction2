@@ -20,5 +20,55 @@ We look at the following aspects:
 We also look at how to use !DirectionEstimators to guess if someone is using a left-right language or a right-left one.
 
 = Book's Chapter Content =
+ * 13.1	Making a user feel comfortable
+   * 13.1.1	What is a Locale?
+   * 13.1.2	Setting up to use Internationalization.
+      * Encoding project files in UTF-8 format
+      * Letting the Browser know
+   * 13.1.3	The three types of GWT Internationalization
+ *13.2	Using Static String Internationalization
+   * 13.2.1	The basics
+   * 13.2.2	The Localizable interface
+   * 13.2.3	Localizable Annotations
+      * Annotation: @Key
+      * Annotation: @Meaning
+      * Annotation: @Description
+   * 13.2.4	Internationalizing Constants
+      * Simple Constants
+      * Complex constants
+      * Annotation: @!DefaultxxxxValue
+   * 13.2.5	Constants with lookup
+   * 13.2.6	Messaging the User
+      * Message Parameter format
+      * Annotation: @Optional
+      * AnnotatIon: @!DefaultMessage
+      * Handling lists of values
+   * 13.2.7	Dealing with Plurals
+      * Annotation: @!PluralCount
+      * Annotation: @!AlternateMessage
+      * Exact Values in Pluralization
+   * 13.2.8	Selecting an Alternate Message based on a user defined value
+      * Annotation: @Select
+   * 13.2.9	Securing against hack attacks
+ * 13.3	Using Static String i18n with UIBinder
+ * 13.3.1	Constants with UIBinder
+   * 13.3.2	Parameterized Messages with UIBinder
+ * 13.4	Determining the locale for Static String Internationalization
+   * 13.4.1	Where to find the locale?
+   * 13.4.2	Searching the URL
+   * 13.4.3	Digesting a Cookie
+   * 13.4.4	Finding a HTML Meta Tag
+   * 13.4.5	Letting the browser decide
+ * 13.5	Internationalizing Client Bundles through Static Internationalization
+ * 13.6	Dynamic String Internationalization
+   * 13.6.1	The basics.
+   * 13.6.2	Enhancing the standard approach
+   * 13.6.3	Using with UIBinder.
+ * 13.7	Localization of Dates, Times and Currencies
+   * 13.7.1	Displaying Numbers and Currency Values
+   * 13.7.2	Displaying Times and Dates
+ * 13.8	Displaying the right direction
+ * 13.9	Summary
+
 
 [ClassicAjax <-- Ch12 Classic AJAX and Forms]<pre></pre>[EventBus Ch14 Events and EventBus -->]
