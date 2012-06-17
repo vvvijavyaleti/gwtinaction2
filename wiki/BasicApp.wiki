@@ -6,6 +6,8 @@ The emphasis of chapter 2 is on you using the GWT tools (specifically the Google
 
 We look at what is created, why, and how.
 
+<wiki:toc max_depth="2" />
+
 We examine the process for the following:
 
  * Dev mode
