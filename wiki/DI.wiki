@@ -2,6 +2,8 @@
 
 This example applies Dependency Injection techniques to the Photo Application from the MVP chapter.
 
+<g:plusone></g:plusone>
+
 The book covers
 
  * Using DI, benefits and pitfalls
