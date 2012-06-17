@@ -28,6 +28,6 @@ to implementation:
 
 To understand History Management better, we have a separate project focussing on just that.
 
-== Book's Chapter Content ==
+= Book's Chapter Content =
 
 [BasicApp <-- Ch2 Creating Hello World]<pre></pre>[CreatingWidgets Ch4 Creating Widgets -->]
