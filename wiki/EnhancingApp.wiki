@@ -4,6 +4,8 @@ Once you have the output from Chapter 2, where we examined using tools to create
 
 <g:plusone></g:plusone>
 
+<wiki:toc max_depth="2" />
+
 == Concept ==
 The chapter describes how we go from the concept:
 
