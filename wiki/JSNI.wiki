@@ -35,6 +35,32 @@ Sometimes you'll wish to allow other users/applications to access your GWT appli
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2011%20JSNI%20API.png" width="500px"/>
 
 = Book's Chapter Content =
+ * 11.1	What is JSNI?
+ * 11.2	Should I Use !JavaScript Native Interface?
+   * 11.2.1	No, it can quickly take away the benefits you are using GWT for in the first place.
+   * 11.2.2	Yes, in these circumstances
+ * 11.3	Benefiting from the Google Eclipse Plug-in
+   * 11.3.1	Debugging !JavaScript
+ * 11.4	Interacting with the Browser
+   * 11.4.1	Example: Getting a browser element’s computed style
+      * Accessing the browser variables
+   * 11.4.2	Passing data in to a JSNI method
+   * 11.4.3	Passing data out of a JSNI method
+ * 11.5	Handling objects from !JavaScript
+   * 11.5.1	Example: Using a !JavaScriptObject
+   * 11.5.2	Example: Extending a !JavaScriptObject (an Overlay)
+   * 11.5.3	Example: Overlaying JSONP data
+ * 11.6	Wrapping a third party library
+   * 11.6.1	Ensuring the library is loaded
+      * Example: Loading Cooliris through the Module file
+      * Example: Loading PERSON.JS through !ScriptInjector
+   * 11.6.2	Accessing Java fields from JSNI
+   * 11.6.3	Calling Java methods from JSNI
+   * 11.6.4	Creating Java objects within JSNI
+   * 11.6.5	Handling exceptions
+ * 11.7	Exposing an API to !JavaScript
+ * 11.8	Summary
+
 
 
 [DataPresentation <-- Ch10 Data Presentation Widgets]<pre></pre>[ClassicAjax Ch12 Classic Ajax and Forms -->]
