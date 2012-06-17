@@ -20,6 +20,28 @@ and take a good dive into !EventBuses:
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2014%20eventbus.png" width="500px"/>
 
 = Book's Chapter Content =
+ * 14.1	Understanding Events	2
+   * 14.1.1	Native events	4
+   * 14.1.2	Logical Events	4
+ * 14.2	How GWT manages events	5
+   * 14.2.1	Dealing with browser differences	6
+      * Event Bubbling	6
+      * Event Capturing	7
+      * The GWT view	8
+   * 14.2.2	Preventing event propagation	8
+   * 14.2.3	Sinking Events	9
+   * 14.2.4	Event Handling Efficiency	11
+ * 14.3	Previewing and Cancelling events	13
+ * 14.4	Preventing default actions	15
+ * 14.5	Programmatically Firing Events	17
+ * 14.6	Creating our own Events	18
+   * 14.6.1	Defining our own Event	18
+   * 14.6.2	Providing the related Interfaces	20
+ * 14.7	Event Buses	21
+   * 14.7.1	What is it	23
+   * 14.7.2	Types of event buses	24
+   * 14.7.3	Using !SimpleEventBus	25
+ * 14.8	Summary	28
 
 
 [I18N <-- Ch13 Internationalization and Localization]<pre></pre>[MVP Ch15 Building MVP Applications -->]
