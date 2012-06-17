@@ -34,5 +34,7 @@ Sometimes you'll wish to allow other users/applications to access your GWT appli
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2011%20JSNI%20API.png" width="500px"/>
 
+= Book's Chapter Content =
+
 
 [DataPresentation <-- Ch10 Data Presentation Widgets]<pre></pre>[ClassicAjax Ch12 Classic Ajax and Forms -->]
