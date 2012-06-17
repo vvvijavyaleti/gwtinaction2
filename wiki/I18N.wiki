@@ -2,6 +2,8 @@
 
 Another example packed chapter showing how to make your application as simply usable by as many people as possible.
 
+<g:plusone></g:plusone>
+
 We look at the following aspects:
 
   * Static internationalization (i18n)
