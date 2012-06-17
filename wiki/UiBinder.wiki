@@ -1,8 +1,8 @@
-= Chapter 6 - Interface Design Using UiBinder =
+= Chapter 6 - Interface Design Using !UiBinder =
 
 You could build interfaces the way we have been so far - lots of Java object creation and the use of the add method.
 
-Or you can do it more efficiently/cleanly using the declarative approach of UiBinder.
+Or you can do it more efficiently/cleanly using the declarative approach of !UiBinder.
 
 <g:plusone></g:plusone>
 
