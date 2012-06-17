@@ -1,6 +1,10 @@
 = Chapter 15 - Building MVP Applications =
 
-We look in the book at how to build applications based on MVP (and what we mean by MVP).  In particular we cover:
+We look in the book at how to build applications based on MVP (and what we mean by MVP).  
+
+<g:plusone></g:plusone>
+
+In particular we cover:
 
  * Hand built MVP
  * Using GWT's Activity and Place
