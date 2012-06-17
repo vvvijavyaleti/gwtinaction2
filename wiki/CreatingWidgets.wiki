@@ -33,6 +33,6 @@ Layout panels are GWT's snappy almost impossibly fast layout containers and as t
 == Elemental ==
 GWT 2.5 brings along a new API which is automatically generated from W3C IDL definitions for HTML 5.  It's very experimental but creating a buz, so we take a quick look in the book how to use it, how different it is from standard GWT approach, and provide some recommendations.
 
-== Book's Chapter Content ==
+= Book's Chapter Content =
 
 [EnhancingApp <-- Ch3 Enhancing Hello World]<pre></pre>[ClientBundles Ch5 Using Client Bundles -->]
