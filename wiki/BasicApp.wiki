@@ -25,5 +25,38 @@ Super Dev Mode is new with GWT 2.5.  It is very experimental but the future of G
 ...where you can see we can debug our Java source directly in the browser's web development tool!
 
 = Book's Chapter Contents =
+ * 4.1	What is a widget, again?
+ * 4.2	Create a new widget from the DOM
+   * 4.2.1	Introducing the GWTiACanvas Widget
+   * 4.2.2	Indicating Functionality
+   * 4.2.3	Hooking up Events
+   * 4.2.4	Using SafeHTML protection
+ * 4.3	Extending an existing widget
+   * 4.3.1	Introducing the !ReportSizeLabel widget
+   * 4.3.2	Indicating functionality
+ * 4.4	Extending a Panel
+ * 4.5	Creating a composite
+   * 4.5.1	Introducing the !DataField question/answer widget
+   * 4.5.2	Indicating Functionality
+ * 4.6	Using Layout Panels
+   * 4.6.1	Types of Layout Panels
+   * 4.6.2	Creating Layout Panels
+   * 4.6.3	Animating Layout Panels
+ * 4.7	Applying animation to widgets
+   * 4.7.1	Widgets that Animate
+   * 4.7.2	Building our own animation
+ * 4.8	Exploring the Lifecycle of a Widget
+   * 4.8.1	Creating a widget
+   * 4.8.2	Adding a widget
+       * Handling widget attachment
+   * 4.8.3	Removing a widget
+       * Handling Widget Detachment
+   * 4.8.4	Destroying a Widget
+ * 4.9	Getting Elemental, my dear Watson!
+   * 4.9.1	Examining Elemental
+   * 4.9.2	Understanding the challenge
+   * 4.9.3	Noting the benefit
+ * 4.10	Summary
+
 
 [EnhancingApp Ch3 Enhancing Hello World -->]
