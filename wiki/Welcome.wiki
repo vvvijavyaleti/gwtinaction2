@@ -11,27 +11,27 @@ The example code comes from the following chapters:
 
 ==Part 1: The Basics==
 || *Chapter* || *Title* || *Examples* ||   
-|| [BasicApp 2] || [BasicApp Building a GWT application: Saying Hello World] || Build a simple Hello World GWT application and get familiar with Dev mode, compiling for web mode (and a brief overview of the future Super Dev Mode)|| 
-|| [EnhancingApp 3] || [EnhancingApp Building a GWT application: Enhancing Hello World] || Enhance the output from Ch2 looking at widgets, panels, handling History, simple events, styling various ways || 
+||  2 || [BasicApp Building a GWT application: Saying Hello World] || Build a simple Hello World GWT application and get familiar with Dev mode, compiling for web mode (and a brief overview of the future Super Dev Mode)|| 
+|| 3]|| [EnhancingApp Building a GWT application: Enhancing Hello World] || Enhance the output from Ch2 looking at widgets, panels, handling History, simple events, styling various ways || 
 
 ==Part 2: Next Steps==
 || *Chapter* || *Title* || *Examples* ||   
-|| 4 || Creating your own widgets || What are widgets and panels.  Creating new widgets and composites, looking at Elemental.  Understanding the widget lifecycle. Using SafeHTML to protect against hack attacks || 
-|| 5 || Using client bundles || Creating and using various client bundles || 
-|| 6 || Interface design with UIBinder || Using UiBinder to create user interfaces || 
-|| 7 || Communicating with GWT-RPC ||  || 
-|| 8 || Using Request Factory ||  || 
-|| 9 || The Editor framework || Using editors with local and remote domain models || 
-|| 10|| Data presentation widgets || (to come) || 
-|| 11|| Using JSNI—the JavaScript Native Interface || Using JSNI to implement new functionality, wrap libraries (CoolIris photo wall), call between Java and JSNI, expose an API to your own application || 
-|| 12|| Classic Ajax and HTML forms ||  || 
-|| 13 || Internationalization and localization || Static and dynamic internationalization as well as localization of currency/timelines etc.  Using alternative messages to drive plural and user-defined based messaging|| 
+|| 4 || [CreatingWidgets Creating your own widgets] || What are widgets and panels.  Creating new widgets and composites, looking at Elemental.  Understanding the widget lifecycle. Using SafeHTML to protect against hack attacks || 
+|| 5 || [ClientBundles Using client bundles] || Creating and using various client bundles || 
+|| 6 || [UiBinder Interface design with UIBinder] || Using UiBinder to create user interfaces || 
+|| 7 || [GWTRPC Communicating with GWT-RPC] ||  || 
+|| 8 || [RequestFactory Using Request Factory] ||  || 
+|| 9 || [EditorFramework The Editor framework] || Using editors with local and remote domain models || 
+|| 10|| [DataPresentation Data presentation widgets] || (to come) || 
+|| 11|| [JSNI Using JSNI—the JavaScript Native Interface] || Using JSNI to implement new functionality, wrap libraries (CoolIris photo wall), call between Java and JSNI, expose an API to your own application || 
+|| 12|| [ClassicAjax Classic Ajax and HTML forms] ||  || 
+|| 13 || [I18N Internationalization and localization] || Static and dynamic internationalization as well as localization of currency/timelines etc.  Using alternative messages to drive plural and user-defined based messaging|| 
 
 ==Part 3: Advanced==
 || *Chapter* || *Title* || *Examples* ||   
-|| 14 || Advanced event handling and event bus || Overview of GWT event handling. Creating and handling new events. Using Event Bus || 
-|| 15 || Building MVP-based applications || Building a Photo Application using MVP techniques - first by hand and then using GWT's Activity and Place.  Seeing how simple it is to swap views and implement code splitting || 
-|| 16 || Dependency injection || Using GIN dependency injection framework in the photo application || 
-|| 17 || Deferred binding || Examining Deferred Binding through examples including looking at property provider generators and handling permutation explosion with soft permutations || 
-|| 18 || Automatically generating code || Example showing how to implement a Generator that automaticall adds logging to all GUI components || 
-|| 19 || Metrics and code splitting ||  || 
+|| 14 || [EventBus Advanced event handling and event bus] || Overview of GWT event handling. Creating and handling new events. Using Event Bus || 
+|| 15 || [MVP Building MVP-based applications] || Building a Photo Application using MVP techniques - first by hand and then using GWT's Activity and Place.  Seeing how simple it is to swap views and implement code splitting || 
+|| 16 || [DI Dependency injection] || Using GIN dependency injection framework in the photo application || 
+|| 17 || [DeferredBinding Deferred binding] || Examining Deferred Binding through examples including looking at property provider generators and handling permutation explosion with soft permutations || 
+|| 18 || [Generators Automatically generating code] || Example showing how to implement a Generator that automaticall adds logging to all GUI components || 
+|| 19 || [Metrics Metrics and code splitting] ||  || 
