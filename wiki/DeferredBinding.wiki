@@ -2,6 +2,12 @@
 
 TBD
 
+
+<g:plusone></g:plusone>
+
+<wiki:toc max_depth="2" />
+
+
 = Book's Chapter Content =
  * 17.1	What is deferred Binding
    * 17.1.1	Storing Implementation Differences in a Java Classes Hierarchy
@@ -26,3 +32,9 @@ TBD
    * 17.5.5	Handling failure to get a property value
  * 17.6	Coping when Deferred Binding is not enough
  * 17.7	Summary
+
+
+
+
+[DI <-- Ch16 Dependency Injection]<pre></pre>[Generators Ch18 Generators-->]
+
