@@ -7,9 +7,11 @@ We look in the book at how to build applications based on MVP (and what we mean 
  * Code splitting in an MVP world
  * How Editors and Data Presentation widgets fit with MVP
 
-This discussion is supported by 4 versions of a Photo application.
+This discussion is supported by 4 versions of a Photo application.  Each have the same set of vies but demonstrate different aspects of the four points above.  Here's the view that shows a set of photo's...
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2015%20mvp%20photos.png" width="500px"/>
+
+...and here's a view that show same data but in a Data Presentation widget to examine how they fit into the MVP approach.
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2015%20mvp%20list.png" width="500px"/>
 
