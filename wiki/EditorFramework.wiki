@@ -4,7 +4,10 @@ TBD
 
 <g:plusone></g:plusone>
 
+<wiki:toc max_depth="2" />
 
 <img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%209%20editor.png" width="600px"/>
+
+= Book's Chapter Content =
 
 [RequestFactory <-- Ch8 Using RequestFactory]<pre></pre>[DataPresentation Ch10 Data Presentation Widgets -->]
