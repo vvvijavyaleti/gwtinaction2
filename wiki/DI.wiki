@@ -1,0 +1,17 @@
+= Chapter 16 - Dependency Injection =
+
+We look at a number of things to do with events in a number of sub examples, including:
+
+ * Creating our own events (!ColorChangeEvent)
+ * Bubbling or Cspturing events
+ * Sinking and handling events
+ * Efficient event handling
+ * Previewing events
+ * Preventing default browser actions
+
+and take a good dive into !EventBuses:
+
+<img src="https://gwtinaction2.googlecode.com/svn/wiki/images/Chapter%2014%20eventbus.png" width="500px"/>
+
+
+[I18N <-- Ch13 Internationalization and Localization]<pre></pre>[MVP Ch15 Building MVP Applications -->]
