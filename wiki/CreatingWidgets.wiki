@@ -39,7 +39,7 @@ GWT 2.5 brings along a new API which is automatically generated from W3C IDL def
    * 4.2.1	Introducing the GWTiACanvas Widget
    * 4.2.2	Indicating Functionality
    * 4.2.3	Hooking up Events
-   * 4.2.4	Using SafeHTML protection
+   * 4.2.4	Peotecting with SafeHTML, SafeUri and SafeStyles
  * 4.3	Extending an existing widget
    * 4.3.1	Introducing the !ReportSizeLabel widget
    * 4.3.2	Indicating functionality
