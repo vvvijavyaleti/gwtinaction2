@@ -1,4 +1,4 @@
-= Chapter 13 Internationalization and Localization =
+= Chapter 13 Internationalization, Localization and Accessibility=
 
 Another example packed chapter showing how to make your application as simply usable by as many people as possible.
 
@@ -68,7 +68,13 @@ We also look at how to use !DirectionEstimators to guess if someone is using a l
    * 13.7.1	Displaying Numbers and Currency Values
    * 13.7.2	Displaying Times and Dates
  * 13.8	Displaying the right direction
- * 13.9	Summary
+ * 13.9	Accessibility	40
+   * 13.9.1	Using alt text for images
+   * 13.9.2	Setting up tab index
+   * 13.9.3	Establishing Keyboard shortcuts
+   * 13.9.4	Providing Alternative styling
+   * 13.9.5	Using ARIA
+ * 13.10	Summary
 
 
 [ClassicAjax <-- Ch12 Classic AJAX and Forms]<pre></pre>[EventBus Ch14 Events and EventBus -->]
