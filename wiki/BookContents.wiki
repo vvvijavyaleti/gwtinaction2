@@ -146,7 +146,7 @@
  * 11.8	Summary
 
 == Chapter 12:  Classic AJAX and HTML Forms ==
-== Chapter 13: Internationalization and Localization ==
+== Chapter 13: Internationalization, Localization and Accessibility ==
  * 13.1	Making a user feel comfortable
    * 13.1.1	What is a Locale?
    * 13.1.2	Setting up to use Internationalization.
