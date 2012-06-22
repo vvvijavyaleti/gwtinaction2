@@ -68,7 +68,7 @@ We also look at how to use !DirectionEstimators to guess if someone is using a l
    * 13.7.1	Displaying Numbers and Currency Values
    * 13.7.2	Displaying Times and Dates
  * 13.8	Displaying the right direction
- * 13.9	Accessibility	40
+ * 13.9	Accessibility
    * 13.9.1	Using alt text for images
    * 13.9.2	Setting up tab index
    * 13.9.3	Establishing Keyboard shortcuts
