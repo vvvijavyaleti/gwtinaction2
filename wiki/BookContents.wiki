@@ -115,7 +115,7 @@
 == Chapter 5: Using ClientBundles ==
 == Chapter 6: Interface Design Using UiBinder ==
 == Chapter 7: Communicating with GWT-RPC ==
-== Chapter 8: Using RequestFactory ==
+== Chapter 8: Using !RequestFactory ==
 == Chapter 9: The Editor Framework ==
 == Chapter 10: Data Presentation Widgets ==
 == Chapter 11: Using JavaScript Native Interface (JSNI) ==
