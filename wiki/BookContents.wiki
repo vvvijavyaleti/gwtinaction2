@@ -113,7 +113,7 @@
  * 4.10	Summary
 
 == Chapter 5: Using !ClientBundles ==
-== Chapter 6: Interface Design Using UiBinder ==
+== Chapter 6: Interface Design Using !UiBinder ==
 == Chapter 7: Communicating with GWT-RPC ==
 == Chapter 8: Using !RequestFactory ==
 == Chapter 9: The Editor Framework ==
