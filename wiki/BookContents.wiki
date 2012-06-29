@@ -112,7 +112,7 @@
    * 4.9.3	Noting the benefit
  * 4.10	Summary
 
-== Chapter 5: Using ClientBundles ==
+== Chapter 5: Using !ClientBundles ==
 == Chapter 6: Interface Design Using UiBinder ==
 == Chapter 7: Communicating with GWT-RPC ==
 == Chapter 8: Using !RequestFactory ==
@@ -203,7 +203,7 @@
    * 13.9.5	Using ARIA
  * 13.10	Summary
 
-== Chapter 14: Advanced Events and EventBus ==
+== Chapter 14: Advanced Events and !EventBus ==
  * 14.1	Understanding Events
    * 14.1.1	Native events
    * 14.1.2	Logical Events
