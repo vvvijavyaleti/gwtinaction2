@@ -148,7 +148,7 @@
  * 6.2	Handling events with UIBinder
  * 6.3	Introducing the UIBinder Expression Language
  * 6.4	Applying style with UIBinder
-   * 6.4.1	Using !<ui:style> to generate a !CssResource
+   * 6.4.1	Using {{{<ui:style>}}} to generate a !CssResource
    * 6.4.2	Accessing a generated !CssResource in your widget
  * 6.5	Using the Eclipse Plug-In with UIBinder
  * 6.6	Summary
