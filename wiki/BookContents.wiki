@@ -7,10 +7,10 @@
  * 1.2	Exploring the toolkit
    * 1.2.1	Compiling and optimizing
    * 1.2.2	Powerful widgets and a template binding engine
-   * 1.2.3	Event handling beyond JavaScript
+   * 1.2.3	Event handling beyond !JavaScript
    * 1.2.4	Client-server communication
    * 1.2.5	Simplified development and debugging
-   * 1.2.6	Integration with JavaScript
+   * 1.2.6	Integration with !JavaScript
    * 1.2.7	History support
    * 1.2.8	Internationalization - Sprechen Sie Deutch?
  * 1.3	Setting up your development environment
