@@ -143,7 +143,7 @@
    * 6.1.3	Binding the UIBinder XML template to the Java code
    * 6.1.4	Binding XML template elements to Java variables
       * Binding template declarations to class fields
-      * Using @UiFactory and @UiConstructor
+      * Using @!UiFactory and @!UiConstructor
    * 6.1.5	Making sense of it all
  * 6.2	Handling events with UIBinder
  * 6.3	Introducing the UIBinder Expression Language
