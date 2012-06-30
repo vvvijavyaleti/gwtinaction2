@@ -220,8 +220,8 @@
      * Using our Editor
    * 9.4.3	Alternate way to construct an Editor
  * 9.5	Binding our editor with drivers
-   * 9.5.1	EmployeeEditor with SimpleBeanEditorDriver
-   * 9.5.2	EmployeeEditor with RequestFactoryEditorDriver
+   * 9.5.1	!EmployeeEditor with !SimpleBeanEditorDriver
+   * 9.5.2	!EmployeeEditor with !RequestFactoryEditorDriver
  * 9.6	Editor sub-interfaces
    * 9.6.1	Accessing the backing framework services
    * 9.6.2	Editors with error handling
