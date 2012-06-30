@@ -207,7 +207,37 @@
  * 8.6	Summary
 
 == Chapter 9: The Editor Framework ==
+ * 9.1	Framework and Editor Overview
+   * 9.1.1	Local Domain Object
+   * 9.1.2	Remote Domain Objects
+ * 9.2	Examining the chapter’s examples
+ * 9.3	Editor types
+ * 9.4	Constructing our first editor
+   * 9.4.1	Defining Local domain object
+   * 9.4.2	Defining the Editor
+     * Declaring the Editor
+     * Constructing the Editor class body
+     * Using our Editor
+   * 9.4.3	Alternate way to construct an Editor
+ * 9.5	Binding our editor with drivers
+   * 9.5.1	EmployeeEditor with SimpleBeanEditorDriver
+   * 9.5.2	EmployeeEditor with RequestFactoryEditorDriver
+ * 9.6	Editor sub-interfaces
+   * 9.6.1	Accessing the backing framework services
+   * 9.6.2	Editors with error handling
+   * 9.6.3	Editing immutable objects
+   * 9.6.4	Building customized Editor behavior
+   * 9.6.5	Handling subeditors of the same type
+ * 9.7	Adapters
+   * 9.7.1	Editing a range of domain object
+   * 9.7.2	Adapt a list of objects with associated Editors
+   * 9.7.3	Adapters for single domain objects
+ * 9.8	Summary
+
+
 == Chapter 10: Data Presentation Widgets ==
+
+
 == Chapter 11: Using !JavaScript Native Interface (JSNI) ==
  * 11.1	What is JSNI?
  * 11.2	Should I Use !JavaScript Native Interface?
