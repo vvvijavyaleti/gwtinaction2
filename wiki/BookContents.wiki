@@ -161,7 +161,7 @@
  * 7.2 Learning GWT-PRC with Twitter
  * 7.3 Fetching data from Twitter the non-GWT way
  * 7.4 Defining a GWT-RPC compatible model
-   * 7.4.1 Using the Serializable and IsSerializable interfaces
+   * 7.4.1 Using the Serializable and !IsSerializable interfaces
    * 7.4.2 Special considerations when using JPA/JDO model objects as a DTO
    * 7.4.3 Developing custom serializers
  * 7.5 Building and deploying the server-side
