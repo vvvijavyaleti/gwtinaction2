@@ -176,6 +176,36 @@
  * 7.8 Summary
 
 == Chapter 8: Using !RequestFactory ==
+ * 8.1	Understanding RequestFactory architecture
+   * 8.1.1	Investigating the client-side architecture
+   * 8.1.2	Investigating the server-side architecture
+ * 8.2	Understanding the example project in this chapter
+ * 8.3	Enabling RequestFactory the simple way
+   * 8.3.1	Creating proxy interfaces for the domain classes
+     * Defining a proxy interface
+     * Defining transportable types
+   * 8.3.2	Developing the factory interface
+   * 8.3.3	Using the domain class as the service
+     * Adding Locator methods to the domain class
+     * Adding service methods to the domain class
+   * 8.3.4	Adding the RequestFactory servlet to the web.xml
+ * 8.4	Making calls to the server
+   * 8.4.1	Initializing RequestFactory and making a simple call to the server
+   * 8.4.2	Creating and persisting using instance methods
+   * 8.4.3	Fetching persisted objects from the server
+   * 8.4.4	Editing domain objects and updating them on the server
+   * 8.4.5	Error handling and validation
+     * Registering the JSR-303 validator
+     * Adding JSR-303 validation annotations
+     * Adding error handling on the client
+ * 8.5	Making use of custom Locator and Service Locators (the “long way”)
+   * 8.5.1	Creating a custom Locator
+   * 8.5.2	Creating a custom Service Locator
+     * Implementing a service class external to the domain class
+     * Creating the ServiceLocator
+     * Hooking in the ServiceLocator
+ * 8.6	Summary
+
 == Chapter 9: The Editor Framework ==
 == Chapter 10: Data Presentation Widgets ==
 == Chapter 11: Using !JavaScript Native Interface (JSNI) ==
