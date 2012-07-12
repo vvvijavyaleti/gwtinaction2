@@ -2,6 +2,8 @@
 
 This is a comprehensive chapter that covers all aspects of GWT's Data Presentation (Cell) widgets including GWT 2.5 functionality.
 
+<g:plusone></g:plusone>
+
 <wiki:toc max_depth="2" />
 
 The aim is to arrive at a widget such as the following:
