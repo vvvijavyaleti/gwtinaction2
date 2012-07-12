@@ -4,6 +4,8 @@ TBD
 
 <wiki:toc max_depth="2" />
 
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/cellwidgets.png
+
 = Book's Chapter Content =
 
 
