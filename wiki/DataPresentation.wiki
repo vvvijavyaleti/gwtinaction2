@@ -12,7 +12,21 @@ http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/cellwidgets.png
 
 which shows custom building of inserted rows on events in the grid, data retrieved from asynchronous server calls, sorting and a variety of cells, together with a pager.
 
-To get there the chapter goes through a number of steps such as investigating existing cell types and how to build new ones (including 2.5's UiBinder capability for cells).
+To get there the chapter goes through a number of steps.
+
+== Cell Types ==
+We look at the different types of Cells GWT provides as standard (presentation, editing and action types) and then explore how to create our own types of cells - composite and custom.
+
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/celltypes.png
+
+The end point is an understanding of cells, events and how to create our own cells.
+
+The section includes how to create cells declaratively using the GWT 2.5 approach to UiBinder.
+
+== Cell Widgets ==
+With a good background on cells in the bag, the 2nd half of the chapter moves on to Cell Widgets.
+
+=== CellList ===
 
 We look at how to retrieve data from Lists, and more importantly discuss how to use more real-life asynchronous connections.
 
