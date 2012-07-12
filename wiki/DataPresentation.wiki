@@ -27,14 +27,41 @@ The section includes how to create cells declaratively using the GWT 2.5 approac
 With a good background on cells in the bag, the 2nd half of the chapter moves on to Cell Widgets.
 
 === CellList ===
+Using the declarative custom cell created in the 1st half of the chapter we investigate CellList.
 
-We look at how to retrieve data from Lists, and more importantly discuss how to use more real-life asynchronous connections.
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/celllist.png
 
-Each of the exsting data presentation widgets are looked at: CellList, CellTree/Browser, CellTable and DataGrid.  With each one we cover the main points in a practical manner such as paging, sorting, creating realistic TreeViewModels from server data as well as how to custom build CellTable and DataGrid rows so that you can have the experience of expanding rows holding "hidden" until required data.
+With this simpler of cell widgets we can examine List and Async (from the server) data providers as well as paging, handling user updates on cells in a column and how to apply selection models.
 
-No where else is all this content covered in so much detail, and quite often it is missing altogether in other sources.
+=== Cell Tree ===
+The CellTree requires an understanding of the TreeViewModel, which is obvious once you've done one of them but often quite frustrating if it is your first time.  
 
-= Book's Chapter Content (preliminary) =
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/celltree.png
+
+We look at how to implement both a List based model (of the type you can find on a google search) and an Async one where data is retrieved from the server (this is both more practical and real life, but is rarely described)
+
+=== Cell Browser ===
+This uses the same TreeViewModel as a CellTree, but building the widget is slightly different (in GWT 2.5).
+
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/cellbrowser.png
+
+We look at how to build one, and how to change the paging model the GWT 2.5 way.
+
+=== Cell Table ===
+We look at how to implement a simple table that grabs data either from local List or Asynchronously from server calls.
+
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/celltable.png
+
+This widget gives us an opportunity to consider sorting data and how that is implemented; creation of columns and how to save data back to the source when updates are made.
+
+=== DataGrid ===
+DataGrid is similar to CellTable and our main purpose here is to investigate the implementation of a custom renderer.
+
+http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/cellwidgets.png
+
+That custom renderer allows us to handle events such as clicking on the "Edit Tags" button to expand a set of rows holding tags.  You could also use the custom renderer to draw rows that span multiple columns etc.
+
+= Book's Chapter Content (preliminary - based on code examples already built) =
 
  * 10.1	Understanding Cells
    * 10.1.1	Looking at Display Cells
