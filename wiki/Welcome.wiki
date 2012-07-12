@@ -26,7 +26,7 @@ The example code comes from the following chapters:
 || 7 || [GWTRPC Communicating with GWT-RPC] ||  || 
 || 8 || [RequestFactory Using Request Factory] ||  || 
 || 9 || [EditorFramework The Editor framework] || Using editors with local and remote domain models || 
-|| 10|| [DataPresentation Data presentation widgets] || (to come) || 
+|| 10|| [DataPresentation Data presentation widgets] || A comprehensive romp through the world of efficient large data set display in GWT || 
 || 11|| [JSNI Using JSNI—the JavaScript Native Interface] || Using JSNI to implement new functionality, wrap libraries (CoolIris photo wall), call between Java and JSNI, expose an API to your own application || 
 || 12|| [ClassicAjax Classic Ajax and HTML forms] ||  || 
 || 13 || [I18N Internationalization and localization] || Static and dynamic internationalization as well as localization of currency/timelines etc.  Using alternative messages to drive plural and user-defined based messaging|| 
