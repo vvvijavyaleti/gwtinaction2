@@ -61,7 +61,7 @@ http://gwtinaction2.googlecode.com/svn/wiki/images/ch10/cellwidgets.png
 
 That custom renderer allows us to handle events such as clicking on the "Edit Tags" button to expand a set of rows holding tags.  You could also use the custom renderer to draw rows that span multiple columns etc.
 
-= Book's Chapter Content (preliminary - based on code examples already built) =
+= Book's Chapter Content =
 
  * 10.1	Understanding Cells
    * 10.1.1	Looking at Display Cells
@@ -88,18 +88,23 @@ That custom renderer allows us to handle events such as clicking on the "Edit Ta
    * 10.4.3	Paging
    * 10.4.4	Handling User Updates
    * 10.4.5	Managing data selection with Selection Models
+   * 10.4.6	Managing the keyboard
  * 10.5	!CellTree
    * 10.5.1	Building !TreeViewModels
-      * Opening a new node
+      * Opening a new node (with Asynchronous data provider)
       * Determining if we’re in the leaves
-   * 10.5.2	Paging in trees
  * 10.6	!CellBrowser
    * 10.6.1	Paging in !CellBrowser
  * 10.7	!CellTable
-   * 10.7.1	Headers and Footers
-   * 10.7.2	Sorting
+   * 10.7.1	Creating a Table
+   * 10.7.2	Applying Headers and Footers
+   * 10.7.3	Sorting the view
+      * With an Asynchronous !DataProvider
+      * With an List !DataProvider
  * 10.8	!DataGrid
-    * 10.9.1 Building custom views (expanded rows)
+   * 10.8.1	Custom Cell Table building
+      * Building standard rows
+      * Building alternative rows (e.g. expanded data)
  * 10.9	Summary
 
 
