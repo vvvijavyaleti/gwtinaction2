@@ -1,11 +1,13 @@
 package com.manning.gwtia.ch07.client;
 
+
 import java.util.ArrayList;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.i18n.client.DateTimeFormat;
+import com.google.gwt.i18n.shared.DateTimeFormat.PredefinedFormat;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
@@ -69,7 +71,8 @@ public class GTwitter extends Composite
             tweetPanel.clear();
 
             for (FeedData status : results) {
-              String dateStr = DateTimeFormat.getShortDateTimeFormat().format(status.getCreatedAt());
+              PredefinedFormat fmt = PredefinedFormat.TIME_SHORT;
+              String dateStr = DateTimeFormat.getFormat(fmt).format(status.getCreatedAt());
               tweetPanel.add(new Label(dateStr + ": " + status.getText()));
             }
           }
