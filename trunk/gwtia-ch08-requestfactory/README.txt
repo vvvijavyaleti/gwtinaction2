@@ -10,11 +10,13 @@ Notes: The Eclipse .project and .classpath files reference both the Google Plugi
 If you don't want to install this plugin or use an alternate IDE, like NetBeans, you will need 
 to do some extra work.
 
+!!IMPORTANT!! You must turn on Annotation Processing.
+See: http://code.google.com/p/google-web-toolkit/wiki/RequestFactoryInterfaceValidation
 
 RUNNING WITHOUT IMPORTING:
 
-You can drop the entire directory target/gwtia-ch08-requestfactory-1.0 onto your Java server (e.g. Tomcat)
-and run it there.
+You can build the project with Maven and drop the entire directory target/gwtia-ch08-requestfactory-1.0
+onto your Java server (e.g. Tomcat) and run it there.
 
 
 RUNNING WITH MAVEN:
