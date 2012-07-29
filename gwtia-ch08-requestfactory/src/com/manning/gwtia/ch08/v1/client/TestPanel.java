@@ -1,13 +1,12 @@
 package com.manning.gwtia.ch08.v1.client;
 
-
-
-
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
 import java.util.logging.Logger;
+
+import javax.validation.ConstraintViolation;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -21,7 +20,6 @@ import com.google.gwt.user.client.ui.Widget;
 import com.google.web.bindery.event.shared.SimpleEventBus;
 import com.google.web.bindery.requestfactory.shared.Receiver;
 import com.google.web.bindery.requestfactory.shared.ServerFailure;
-import com.google.web.bindery.requestfactory.shared.Violation;
 import com.manning.gwtia.ch08.v1.client.ContactProxy.PhoneProxy;
 import com.manning.gwtia.ch08.v1.client.Factory.ContactRequest;
 
@@ -91,11 +89,11 @@ public class TestPanel extends Composite
             {
                 log.info("Server failure: " + error.getMessage());
             }
-            
-            public void onViolation (Set<Violation> errors)
+
+            public void onConstraintViolation(Set<ConstraintViolation<?>> violations)
             {
-                for (Violation err : errors)
-                    log.info(err.getPath() + " : " + err.getMessage());
+                for (ConstraintViolation<?> err : violations)
+                    log.info(err.getPropertyPath() + " : " + err.getMessage());
             }
         };
         
