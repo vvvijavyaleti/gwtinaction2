@@ -9,6 +9,7 @@ import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+import com.google.gwt.user.server.rpc.XsrfProtectedServiceServlet;
 import com.manning.gwtia.ch07.shared.FeedData;
 import com.manning.gwtia.ch07.shared.GTwitterException;
 import com.manning.gwtia.ch07.shared.TwitterService;
@@ -16,7 +17,7 @@ import com.manning.gwtia.ch07.shared.TwitterService;
 /**
  * The server side implementation of the TwitterService interface.
  */
-public class TwitterServiceImpl extends RemoteServiceServlet implements
+public class TwitterServiceImpl extends XsrfProtectedServiceServlet implements
     TwitterService
 {
 

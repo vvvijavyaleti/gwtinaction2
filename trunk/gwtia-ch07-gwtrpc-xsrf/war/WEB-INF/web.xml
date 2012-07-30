@@ -5,14 +5,41 @@
 
 <web-app>
 
+	<context-param>
+		<param-name>gwt.xsrf.session_cookie_name</param-name>
+		<param-value>JSESSIONID</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>createSessionFilter</filter-name>
+		<filter-class>com.manning.gwtia.ch07.server.ForceSessionCreationFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>createSessionFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
 	<servlet>
 		<servlet-name>twitterServlet</servlet-name>
 		<servlet-class>com.manning.gwtia.ch07.server.TwitterServiceImpl</servlet-class>
 	</servlet>
 
+	<servlet>
+		<servlet-name>xsrf</servlet-name>
+		<servlet-class>
+			com.google.gwt.user.server.rpc.XsrfTokenServiceServlet
+		</servlet-class>
+	</servlet>
+
 	<servlet-mapping>
 		<servlet-name>twitterServlet</servlet-name>
 		<url-pattern>/gwtia_ch07_gwtrpc/service</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>xsrf</servlet-name>
+		<url-pattern>/gwtia_ch07_gwtrpc/xsrf</url-pattern>
 	</servlet-mapping>
 
 </web-app>

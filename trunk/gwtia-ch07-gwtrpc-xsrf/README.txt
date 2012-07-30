@@ -11,7 +11,7 @@ to do some extra work.
 
 RUNNING WITHOUT IMPORTING:
 
-You can drop the entire directory target/gwtia-ch07-gwtrpc-1.0 onto your Java server (e.g. Tomcat)
+You can drop the entire directory target/gwtia-ch07-gwtrpc-xsrf-1.0 onto your Java server (e.g. Tomcat)
 and run it there.
 
 

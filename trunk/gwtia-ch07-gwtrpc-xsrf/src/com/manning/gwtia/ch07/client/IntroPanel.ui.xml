@@ -15,7 +15,9 @@
 				displays those updates.  GTwitter uses the Twitter4J client library, an open-source
 				tool that is freely available.
 			</p>
+			
+			<p style="color:red;font-weight:bold;">This is an alternate version of the GWT-RPC example that includes XSRF protection.</p>
 		</g:HTMLPanel>
 	</g:ScrollPanel>
 
-</ui:UiBinder> 
+</ui:UiBinder>
