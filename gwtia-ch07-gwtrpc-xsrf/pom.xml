@@ -8,10 +8,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.manning.gwtia</groupId>
-	<artifactId>gwtia-ch07-gwtrpc</artifactId>
+	<artifactId>gwtia-ch07-gwtrpc-xsrf</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	<name>gwtia-ch07-gwtrpc</name>
+	<name>gwtia-ch07-gwtrpc-xsrf</name>
 
 	<pluginRepositories>
 		<pluginRepository>
@@ -39,7 +39,7 @@
 			<groupId>org.twitter4j</groupId>
 			<artifactId>twitter4j</artifactId>
 			<version>twitter4j-core-2.1.1-SNAPSHOT</version>
-			<scope>system</scope>
+			<scope>system</scope>*
 			<systemPath>${basedir}/war/WEB-INF/lib/twitter4j-core-2.1.1-SNAPSHOT.jar</systemPath>
 		</dependency>
 	</dependencies>

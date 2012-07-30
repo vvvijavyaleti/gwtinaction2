@@ -8,8 +8,15 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.i18n.client.DateTimeFormat;
 import com.google.gwt.i18n.shared.DateTimeFormat.PredefinedFormat;
+import com.google.gwt.user.client.Cookies;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.google.gwt.user.client.rpc.HasRpcToken;
+import com.google.gwt.user.client.rpc.RpcTokenException;
+import com.google.gwt.user.client.rpc.ServiceDefTarget;
+import com.google.gwt.user.client.rpc.XsrfToken;
+import com.google.gwt.user.client.rpc.XsrfTokenService;
+import com.google.gwt.user.client.rpc.XsrfTokenServiceAsync;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FlowPanel;
@@ -56,26 +63,27 @@ public class GTwitter extends Composite
          * This callback handles the results from a call to the getUserTimeline() method on the server.
          */
         final AsyncCallback<ArrayList<FeedData>> updateTweetPanelCallback = new AsyncCallback<ArrayList<FeedData>>() {
-          
-          /*
-           * Diaplys an alert pop-up message when the service call returns an error.
-           */
-          public void onFailure(Throwable e) {
-            Window.alert("Error: " + e.getMessage());
-          }
 
-          /*
-           * Populates the tweetPanel with the tweets retrieved from the server. 
-           */
-          public void onSuccess(ArrayList<FeedData> results) {
-            tweetPanel.clear();
-
-            for (FeedData status : results) {
-              PredefinedFormat fmt = PredefinedFormat.TIME_SHORT;
-              String dateStr = DateTimeFormat.getFormat(fmt).format(status.getCreatedAt());
-              tweetPanel.add(new Label(dateStr + ": " + status.getText()));
+            /*
+             * Displays an alert pop-up message when the service call returns an error.
+             */
+            public void onFailure (Throwable e)
+            {
+                Window.alert("Error: " + e.getMessage());
             }
-          }
+
+            /*
+             * Populates the tweetPanel with the tweets retrieved from the server. 
+             */
+            public void onSuccess (ArrayList<FeedData> results)
+            {
+                tweetPanel.clear();
+                for (FeedData status : results) {
+                    PredefinedFormat fmt = PredefinedFormat.TIME_SHORT;
+                    String dateStr = DateTimeFormat.getFormat(fmt).format(status.getCreatedAt());
+                    tweetPanel.add(new Label(dateStr + ": " + status.getText()));
+                }
+            }
         };
 
         /*
@@ -85,19 +93,46 @@ public class GTwitter extends Composite
          * This method triggers a call to getUserTimeline() on the server when a user
          * clicks the btnGetTweets button.
          */
-        btnGetTweets.addClickHandler(new ClickHandler() {
-          public void onClick(ClickEvent event) {
-            TwitterServiceAsync service = GWT.create(TwitterService.class);
+        btnGetTweets.addClickHandler(new ClickHandler()
+        {
+            public void onClick (ClickEvent event)
+            {
+                // Mentioned in the book as useful for testing if your server isn't sending
+                // a JSESSIONID to the browser.
+                //
+                // if (Cookies.getCookie("JSESSIONID") == null)
+                //    Cookies.setCookie("JSESSIONID", Double.toString(Math.random()));
+                
+                XsrfTokenServiceAsync xsrf = GWT.create(XsrfTokenService.class);
+                ((ServiceDefTarget)xsrf).setServiceEntryPoint(GWT.getModuleBaseURL() + "xsrf");
+                xsrf.getNewXsrfToken(new AsyncCallback<XsrfToken>() {
 
-            /*
-             * Alternative way to set the target URL on the server.  In most cases (as we do here),
-             * you would use the @RemoteServiceRelativePath annotation on the service interface.
-             */
-            // ((ServiceDefTarget) service).setServiceEntryPoint(GWT.getModuleBaseURL() + "service");
-            
-            service.getUserTimeline(txtScreenName.getText(),
-                updateTweetPanelCallback);
-          }
+                    public void onSuccess (XsrfToken token)
+                    {
+                        TwitterServiceAsync service = GWT.create(TwitterService.class);
+                        ((HasRpcToken) service).setRpcToken(token);
+                        /*
+                         * Alternative way to set the target URL on the server.  In most cases (as we do here),
+                         * you would use the @RemoteServiceRelativePath annotation on the service interface.
+                         */
+                        // ((ServiceDefTarget) service).setServiceEntryPoint(GWT.getModuleBaseURL() + "service");
+                        service.getUserTimeline(txtScreenName.getText(), updateTweetPanelCallback);
+                    }
+
+                    public void onFailure (Throwable caught)
+                    {
+                        try {
+                            throw caught;
+                        }
+                        catch (RpcTokenException e) {
+                            Window.alert("Error: " + e.getMessage());
+                        }
+                        catch (Throwable e) {
+                            Window.alert("Error: " + e.getMessage());
+                        }
+                    }
+                });                
+            }
         });
     }
 
