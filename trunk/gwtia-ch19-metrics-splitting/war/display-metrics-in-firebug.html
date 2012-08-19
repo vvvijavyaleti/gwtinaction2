@@ -8,10 +8,10 @@
 var eventBuffer = [];
 
 window.__gwtStatsEvent = function(event) {
-  bufferEvent(event)
+  bufferEvent(event);
   writeBufferedEvents();
   return true;
-}
+};
 
 function bufferEvent (event) {
   eventBuffer[eventBuffer.length] = event;
