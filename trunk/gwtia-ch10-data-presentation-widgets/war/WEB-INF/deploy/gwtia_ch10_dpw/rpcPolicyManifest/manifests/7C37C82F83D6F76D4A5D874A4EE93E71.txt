@@ -1,2 +1,0 @@
-serviceClass: com.manning.gwtia.ch10.shared.PhotoAlbumService
-path: F5F2F7A133F0D277DF3AD8AF955F239E.gwt.rpc
