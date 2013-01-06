@@ -2,7 +2,7 @@
 
 	<servlet>
 		<servlet-name>init</servlet-name>
-		<servlet-class>com.manning.gwtia.ch9.server.servlet.BootstrapValidationServlet</servlet-class>
+		<servlet-class>com.manning.gwtia.ch09.server.servlet.BootstrapValidationServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
