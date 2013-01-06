@@ -4,10 +4,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.manning.gwtia</groupId>
-	<artifactId>gwtia-ch9-editor</artifactId>
+	<artifactId>gwtia-ch09-editor</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	<name>gwtia-ch9-editor</name>
+	<name>gwtia-ch09-editor</name>
 
 	<pluginRepositories>
 		<pluginRepository>
@@ -25,7 +25,7 @@
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-servlet</artifactId>
-			<version>2.3.0</version>
+			<version>2.5.0</version>
 		</dependency>
 		<dependency>
 		    <groupId>org.hibernate</groupId>
@@ -69,12 +69,12 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>gwt-maven-plugin</artifactId>
-				<version>2.3.0</version>
+				<version>2.5.0</version>
 				<executions>
 					<execution>
 						<configuration>
 							<modules>
-								<param>com.manning.gwtia.ch9.EditorExample</param>
+								<param>com.manning.gwtia.ch09.EditorExample</param>
 							</modules>
 						</configuration>
 						<goals>
@@ -86,7 +86,7 @@
 					<dependency>
 						<groupId>com.google.gwt</groupId>
 						<artifactId>gwt-user</artifactId>
-						<version>2.3.0</version>
+						<version>2.5.0</version>
 						<scope>provided</scope>
 					</dependency>
 				</dependencies>
